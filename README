@@ -1,3 +1,44 @@
-# HEX Software - Internship Project Repository
+# HEX Software — Internship Projects
 
-This repository contains the work completed during my internship at HEX Software. It showcases various projects and implementations developed throughout the internship period.
+This repository contains data analysis and visualization projects completed during my internship at **HEX Software**.
+
+---
+
+## Projects
+
+### 1. Titanic Survival Analysis (`Titanic_Analysis.ipynb`)
+Exploratory Data Analysis (EDA) on the Titanic dataset using Pandas, Seaborn, and Matplotlib. Includes data cleaning, feature engineering, survival rate analysis by class/sex/age, and correlation heatmaps.
+
+### 2. COVID-19 Data Analysis (`Covid19_Analysis.ipynb`)
+Comprehensive analysis of the global COVID-19 pandemic using real-time data from **Our World in Data**. Covers:
+- Global daily trends (cases, deaths, vaccinations)
+- Top affected countries comparison
+- Vaccination rate vs death rate correlation
+- Infection Fatality Rate (IFR) analysis by continent and demographics
+- Reproduction rate trends for major countries
+- Correlation between COVID-19 metrics and socioeconomic factors
+
+### 3. YouTube Data Dashboard (`youtube_dashboard.py`)
+Interactive Streamlit dashboard for YouTube channel analytics:
+- Key performance indicators (subscribers, views, videos)
+- Top-performing videos with sortable bar charts (views, likes, comments, engagement rate)
+- Subscriber growth trends over time
+- Views vs likes scatter plot with trendline
+- Publishing pattern analysis
+- Metric correlation heatmap
+- Toggle between **sample data** (offline) and **live YouTube Data API v3** data
+
+---
+
+## How to Run
+
+```powershell
+conda activate ml
+pip install streamlit plotly google-api-python-client
+streamlit run youtube_dashboard.py
+```
+
+Jupyter notebooks can be opened with:
+```powershell
+jupyter notebook
+```
